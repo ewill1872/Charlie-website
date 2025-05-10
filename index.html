@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Charlie O'Neill",
+        "url": "https://cwodesigns.co.uk",
+        "image": "https://cwodesigns.co.uk/images/profile.jpg",
+        "jobTitle": "Freelance Web Designer & Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "CWO Designs"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/charlieoneill",
+          "https://github.com/cwodesigns"
+        ],
+        "email": "mailto:charlie.oneill@cwodesigns.co.uk",
+        "description": "Charlie O'Neill is a freelance web designer and developer offering custom websites and design solutions for small businesses and entrepreneurs.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "United Kingdom"
+        }
+      }
+      </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CWO Designs | Web Development & Design Services</title>
+    <meta name="description" content="Professional web development and design services by Charlie O'Neill. Websites, e-commerce solutions, and more." />
+    <meta name="author" content="CWO Designs" />
+
+    <meta property="og:title" content="CWO Designs | Web Development & Design Services" />
+    <meta property="og:description" content="Professional web development and design services by Charlie O'Neill. Websites, e-commerce solutions, and more." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="favicon.png" />
+
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- Netlify Form -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
