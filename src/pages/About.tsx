@@ -27,7 +27,7 @@ const About = () => {
               <h2 className="mb-6">Hello, I'm Charlie</h2>
               <div className="space-y-6 text-lg">
                 <p>
-                  I'm a web designer and developer currently studying at university while also working on web design projects. 
+                  I'm a web designer and developer currently studying while also working on web design projects. 
                   I'm passionate about creating beautiful, functional websites that not only look great but also deliver results for my clients.
                 </p>
                 <p>
@@ -75,17 +75,7 @@ const About = () => {
                   ))}
                 </div>
                 
-                <h3 className="text-xl font-semibold mb-4">Education</h3>
-                <div className="space-y-4">
-                  <div>
-                    <p className="font-medium">BSc Computer Science</p>
-                    <p className="text-brand-gray">University, Current</p>
-                  </div>
-                  <div>
-                    <p className="font-medium">Web Development Certifications</p>
-                    <p className="text-brand-gray">Various Online Platforms</p>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
