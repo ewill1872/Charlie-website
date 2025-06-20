@@ -7,6 +7,18 @@ import { Check } from 'lucide-react';
 const Prices = () => {
   const packages = [
     {
+      name: 'Simple Design',
+      price: '£50',
+      description: 'A design with your specifications and preferences, no website',
+      features: [
+        '£50 per design',
+        'Annotated and clear view',
+        'Including any content specified by you',
+        '2 rounds of revisions'
+      ]
+},
+    
+    {
       name: 'Basic Website',
       price: '£450',
       description: 'Perfect for small businesses or personal sites needing a simple online presence.',
